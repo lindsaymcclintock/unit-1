@@ -1,1 +1,1 @@
-/* Stylesheet by Lindsay McClintock, 2024 */
+/* JS by Lindsay McClintock, 2024 */
