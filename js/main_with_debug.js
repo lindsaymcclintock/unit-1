@@ -73,7 +73,7 @@
 	document.addEventListener('DOMContentLoaded',addColumns)	
 	//function to change color when mouse hovers over a new table row
 	function addEvents(){
-		//add event listener when mouse hovers over table row
+		//add event listener when mouse hovers over header row
 		document.querySelector("tr").addEventListener("mouseover", addEvents);
 			//color variable will change rgb values randomly
 			var color = "rgb(";
@@ -95,7 +95,7 @@
 			document.querySelector("#mydiv").style.color = color;
 		};
 	};
-	//execute addEvents
+	//  execute addEvents
 	document.addEventListener('DOMContentLoaded',addEvents)
 	//function to create alert 
 	function clickme(){
@@ -104,3 +104,9 @@
 	};
 	//add the event listener to execute clickme function when table is clicked
 	document.querySelector("table").addEventListener("click", clickme)
+
+
+
+
+
+	
